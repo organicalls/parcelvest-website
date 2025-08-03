@@ -1,0 +1,31 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- ParcelVest Logo -->
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1F3D1B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B87333;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo Icon -->
+  <g id="icon">
+    <!-- Grid pattern representing parcels -->
+    <rect x="10" y="15" width="10" height="10" fill="#1F3D1B" opacity="0.8"/>
+    <rect x="22" y="15" width="10" height="10" fill="#B87333" opacity="0.6"/>
+    <rect x="10" y="27" width="10" height="10" fill="#B87333" opacity="0.6"/>
+    <rect x="22" y="27" width="10" height="10" fill="#1F3D1B" opacity="0.8"/>
+    
+    <!-- Overlay diamond shape -->
+    <path d="M21 10 L32 21 L21 32 L10 21 Z" fill="none" stroke="#1F3D1B" stroke-width="2"/>
+  </g>
+  
+  <!-- Logo Text -->
+  <text x="45" y="35" font-family="Montserrat, sans-serif" font-size="24" font-weight="700" fill="#1F3D1B">
+    ParcelVest
+  </text>
+  
+  <!-- Tagline -->
+  <text x="45" y="48" font-family="Inter, sans-serif" font-size="10" font-weight="400" fill="#4A4A4A">
+    Your Land. Our Solution.
+  </text>
+</svg>
