@@ -426,6 +426,20 @@ p {
   border-radius: 12px;
   box-shadow: var(--shadow-md);
   position: relative;
+  text-align: center;
+}
+
+.testimonial-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto var(--space-md);
+  background: var(--sandstone-beige);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: var(--forest-green);
 }
 
 .testimonial-quote {
@@ -709,13 +723,6 @@ p {
   display: block;
 }
 
-.testimonial-image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 8px 8px 0 0;
-  margin: -var(--space-lg) -var(--space-lg) var(--space-md) -var(--space-lg);
-}
 
 .trust-badges {
   display: flex;
