@@ -11,6 +11,14 @@
       "use": "@vercel/static"
     },
     {
+      "src": "privacy-policy.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "terms-of-service.html",
+      "use": "@vercel/static"
+    },
+    {
       "src": "styles/**",
       "use": "@vercel/static"
     },
