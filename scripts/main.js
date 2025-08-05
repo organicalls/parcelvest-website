@@ -232,7 +232,7 @@ if (landForm) {
         
         try {
             // Submit to webhook endpoint
-            const response = await fetch('/api/contact-form', {
+            const response = await fetch('/api/contact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
