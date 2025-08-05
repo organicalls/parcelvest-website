@@ -1,0 +1,2 @@
+# Redirect www to non-www
+https://www.parcelvest.com/* https://parcelvest.com/:splat 301
