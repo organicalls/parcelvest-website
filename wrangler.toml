@@ -1,9 +1,0 @@
-# Cloudflare Pages configuration
-# This file configures environment variables for your Pages Functions
-
-[vars]
-# Replace with your actual webhook URL
-WEBHOOK_URL = "https://your-actual-webhook-endpoint.com/webhook/audiencelab-cdp"
-
-# Add any other environment variables here
-# NODE_ENV = "production"
