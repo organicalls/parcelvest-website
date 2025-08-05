@@ -1,13 +1,15 @@
-# Vercel
-.vercel
-
-# Dependencies
-node_modules/
+# Ignore Vercel and Cloudflare
+.vercel/
+.cloudflare/
+wrangler.toml
 
 # Environment variables
 .env
 .env.local
 .env.production
+
+# Dependencies
+node_modules/
 
 # Logs
 *.log
