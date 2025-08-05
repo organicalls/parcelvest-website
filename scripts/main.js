@@ -232,7 +232,7 @@ if (landForm) {
         
         try {
             // Submit to webhook endpoint
-            const response = await fetch('/webhook/audiencelab-cdp', {
+            const response = await fetch('/api/contact-form', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
